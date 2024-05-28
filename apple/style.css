@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+  nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(14, 14, 14, 0.947);
+}
+a{
+    color:white ;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+    padding-top:15px ;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+svg{ 
+    width: 100px;
+}
+.icone{
+    width: auto;
+    margin-left: 30px;
+}
+
+.marg{
+    color: black;
+    background-color: black;
+    padding: 1%;
+}
+.img1{
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.first{
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-family:'SF Pro Icons';
+    
+    
+}
+
+.dd{
+    color: rgb(91, 131, 253);;
+    margin-top: 0;
+    font-size: 17px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+.pd{
+    color:white;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 49px;
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top:7% ;
+}
+.pp{
+    color:white;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 14%;
+
+}
+
+.ps{
+    color:rgb(46, 142, 246);
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20%;
+}
+
+
+.second{
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.kk{
+    color:black;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 53px;
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 9%;
+    padding-bottom: 100px;
+}
+
+.kd{
+    color :black;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 19%;
+}
+.ks{
+    color:rgb(46, 142, 246);
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 90px;
+    padding-top: 10%;
+}
+
+.img2{
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺'), url("/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff") format("woff"), url("/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺'), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
